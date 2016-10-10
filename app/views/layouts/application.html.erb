@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GoalsApp</title>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= render "layouts/disp_errors" %>
+<%= render "layouts/log_buttons" %>
+
+<%= yield %>
+
+</body>
+</html>
